@@ -1,5 +1,7 @@
 # Nginx as Reverse Proxy on Raspberry Pi
 
+Instruction how to expose your internal applications securely to the internet with Nginx as reverse proxy
+
 # Update repositories and install prerequisites
 sudo apt-get update
 sudo apt-get -y install build-essential libpcre3 libpcre3-dev openssl libssl-dev zlib1g zlib1g-dev
