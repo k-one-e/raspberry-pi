@@ -44,7 +44,7 @@ sudo make
 ```
 
 ## Configuration
-- For Basic HTTP Auth 
+- htpasswd is included in apache2-utils. We need it to generate passwords for Basic HTTP Authentication
 ```
 sudo apt-get -y install apache2-utils
 sudo htpasswd -c /usr/local/nginx/conf/.htpasswd user@mail.com
