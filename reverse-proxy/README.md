@@ -39,9 +39,9 @@ Instruction how to expose your internal applications securely to the internet wi
 
 
 - To make any application on your local network securely accessible through the reverse proxy create a .conf file for each application inside conf/sites-enabled/ 
-- For example the conf file to access your internal grafana instance through the reverse proxy would be like the following:
+For example the conf file to access your internal grafana instance through the reverse proxy would be like the following:
 
-- grafana.conf
+grafana.conf:
 server {
     listen 443 ssl;
     server_name grafana.*;
