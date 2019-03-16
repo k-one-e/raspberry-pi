@@ -113,6 +113,7 @@ Open the console of Grafana under http://raspberrypi-ip:3000/login. The default 
 
 ###### Add Data Source
 Over navigation menu or by visiting the url http://raspberrypi-ip:3000/datasources add a new data source according the screenshot:
+
 ![Grafana Console](https://blog.butenostfreesen.de/2018/10/11/Fritz-Box-Monitoring-mit-Grafana-und-Raspberry/b02f416e4d98890e004bc4ba0af91f1c.png)
 
 After clicking on "Save and Test" if the data source is functional it'll be added.
